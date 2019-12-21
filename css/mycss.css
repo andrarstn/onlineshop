@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #171717;
+    border-bottom: 1px solid #303030;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+#mycart {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+/* Carousel */
+.carousel {
+    height: 400px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'lora';
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+
+.features h3,
+.designer h3,
+.similar h3,
+.cart h3,
+.checkoutModal h3 {
+    font-family: "lora";
+    color: #1B2698;
+    font-weight: bold;
+}
+
+.features p,
+.designer p,
+.similar p,
+.cart p,
+.checkoutModal p,
+footer p,
+footer a {
+    color: #b7b7b7;
+    font-weight: 200;
+}
+
+footer a:hover {
+    color: #1B2698;
+    font-weight: 400;
+}
+
+.figure h5,
+.figure h4 {
+    color: #171717;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.figure-img a:hover {
+    opacity: 1;
+}
+
+footer a {
+    text-decoration: none !important;
+}
+
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.cart-breadcrumb {
+    margin-top: 50px;
+}
+
+.product-thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 348px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+}
+
+.designedby h5 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #b7b7b7;
+    margin-bottom: 20px;
+}
+
+.designedby h4 {
+    font-size: 18px;
+    color: #171717;
+}
+
+.designedby p {
+    font-size: 14px;
+    font-weight: 200;
+    color: #171717;
+}
+
+.description {
+    background-color: #F6F7Fb;
+    height: 350px;
+}
+
+.description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.description .tab-content p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #868686;
+    line-height: 28px;
+}
+
+.prod-review,
+.prod-desc {
+    height: 330px;
+    overflow: scroll;
+}
+
+.prod-review h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.prod-review p {
+    font-size: 14px;
+}
+
+.similar {
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+.checkout-detail {
+    background-color: #F6F7Fb;
+    border: 1px solid #eaeaea;
+    color: #171717;
+}

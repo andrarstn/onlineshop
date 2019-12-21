@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <!-- MyCSS -->
+    <link rel="stylesheet" href="css/mycss.css">
+
+    <title>Product</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Andra Store">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="singleproduct.html">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Designer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <a href="cart.html" class="nav-link text-white"><i class="fas fa-shopping-cart"></i> My Cart (<span
+                        id="mycart">10</span>)</a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Breadcumb -->
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent pl-0">
+                <li class="breadcrumb-item"><a href="#">Category</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Single Product</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- End Breadcumb -->
+
+    <!-- Single Product -->
+    <section class="singleproduct">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <figure class="figure">
+                        <img src="img/singleproduct.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption product-thumbnail-container d-flex justify-content-between">
+                            <a href="">
+                                <img src="img/singleproductsmall.png">
+                            </a>
+                            <a href="">
+                                <img src="img/singleproductsmall.png">
+                            </a>
+                            <a href="">
+                                <img src="img/singleproductsmall.png">
+                            </a>
+                            <a href="">
+                                <img src="img/singleproductsmall.png">
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-5">
+                    <h3>Nama Produk</h3>
+                    <p class="text-muted">IDR 209.000</p>
+                    <button type="button" class="btn" style="background-color: #eaeaea;">
+                        <i class="fas fa-minus-circle"></i>
+                    </button>
+                    <span class="mx-2">5</span>
+                    <button type="button" class="btn btn-success">
+                        <i class="fas fa-plus-circle"></i>
+                    </button>
+                    <div class="btn-product">
+                        <a href="" class="btn btn-warning text-white">Add to Cart</a>
+                        <a href="" class="btn" style="background-color: #eaeaea; color: #adadad;">Add to Wishlist</a>
+                    </div>
+
+                    <div class="designedby">
+                        <h5>Designed by</h5>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="img/designedby.png">
+                            </div>
+                            <div class="col pl-1">
+                                <h4>Fulan</h4>
+                                <p><span>10.2K</span> followers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Single Product -->
+
+    <!-- Desc -->
+    <section class="description p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-9">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description"
+                                role="tab" aria-controls="description" aria-selected="true">Product Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab"
+                                aria-controls="review" aria-selected="false">Reviews(20)</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-3" id="myTabContent">
+                        <div class="tab-pane fade show active prod-desc" id="description" role="tabpanel"
+                            aria-labelledby="description-tab">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo consectetur, veniam
+                                accusantium laborum id, cum esse et illo corrupti quibusdam enim architecto inventore
+                                hic reprehenderit facilis eveniet molestias. Quas, repellat.</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime praesentium tempore
+                                deserunt asperiores ex recusandae sapiente placeat molestias ipsa maiores. Voluptatum
+                                eos, reprehenderit quis illum illo aperiam inventore facilis assumenda?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officiis qui delectus
+                                dignissimos aliquid soluta dolor magnam. Earum doloremque nisi, hic temporibus cum
+                                maxime voluptatem, fugit quae, eveniet facere sequi.</p>
+                        </div>
+                        <div class="tab-pane fade prod-review" id="review" role="tabpanel" aria-labelledby="review-tab">
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block d-none d-md-block">
+                                    <img src="img/reviewer.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Fulan</h5>
+                                    <p>Produk bagus dan rapi</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="img/reviewer.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Fulan</h5>
+                                    <p>Produk bagus dan rapi</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="img/reviewer.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Fulan</h5>
+                                    <p>Produk bagus dan rapi</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="img/reviewer.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Fulan</h5>
+                                    <p>Produk bagus dan rapi</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="img/reviewer.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Fulan</h5>
+                                    <p>Produk bagus dan rapi</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="img/reviewer.png">
+                                </div>
+                                <div class="col">
+                                    <h5>Fulan</h5>
+                                    <p>Produk bagus dan rapi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Desc -->
+
+    <!-- Similar -->
+    <section class="similar">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h3>Similar Products</h3>
+                    <p>Pakaian pelengkap produk di atas</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <figure class="figure">
+                        <img src="img/similar.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Nama Produk</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col d-flex align-items-center justify-content-end">
+                                    <p style="font-size: 18px;">IDR 209.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4 ">
+                    <figure class="figure">
+                        <img src="img/similar.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Nama Produk</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col d-flex align-items-center justify-content-end">
+                                    <p style="font-size: 18px;">IDR 209.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4 ">
+                    <figure class="figure">
+                        <img src="img/similar.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Nama Produk</h4>
+                                    <p>Match 20%</p>
+                                </div>
+                                <div class="col d-flex align-items-center justify-content-end">
+                                    <p style="font-size: 18px;">IDR 209.000</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Similar -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <a href="">
+                        <img src="img/logo.png">
+                    </a>
+                </div>
+                <div class="col-4 text-right">
+                    <a href="">
+                        <img src="img/socmed-fb.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/socmed-tw.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/socmed-ig.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-between">
+                <div class="col-6">
+                    <p>All Rights Reserved by Andra Store Copyright 2019</p>
+                    <p>Icon made by Freepik from <a href="https://www.flaticon.com/">ww.flaticon.com</a></p>
+                </div>
+                <div class="col-6 text-uppercase">
+                    <nav class="nav justify-content-end">
+                        <a class="nav-link active pr-0" href="#">Jobs</a>
+                        <a class="nav-link pr-0" href="#">Developer</a>
+                        <a class="nav-link pr-0" href="#">Terms</a>
+                        <a class="nav-link pr-0" href="#">Privacy policy</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then font awesome -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    </script>
+    <script src="js/popper.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/all.min.js">
+    </script>
+</body>
+
+</html>
