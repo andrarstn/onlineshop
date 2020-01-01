@@ -74,7 +74,7 @@
     <!-- End Breadcumb -->
 
     <!-- Single Product -->
-    <section class="singleproduct">
+    <section id="singleproduct">
         <div class="container">
             <div class="row">
                 <div class="col-5">
@@ -99,13 +99,15 @@
                 <div class="col-lg-5">
                     <h3>Nama Produk</h3>
                     <p class="text-muted">IDR 209.000</p>
-                    <button type="button" class="btn" style="background-color: #eaeaea;">
-                        <i class="fas fa-minus-circle"></i>
-                    </button>
-                    <span class="mx-2">5</span>
-                    <button type="button" class="btn btn-success">
-                        <i class="fas fa-plus-circle"></i>
-                    </button>
+                    <div class="quantity">
+                        <button type="button" class="btn min" style="background-color: #eaeaea;">
+                            <i class="fas fa-minus-circle"></i>
+                        </button>
+                        <span class="mx-2">1</span>
+                        <button type="button" class="btn btn-success plus">
+                            <i class="fas fa-plus-circle"></i>
+                        </button>
+                    </div>
                     <div class="btn-product">
                         <a href="" class="btn btn-warning text-white">Add to Cart</a>
                         <a href="" class="btn" style="background-color: #eaeaea; color: #adadad;">Add to Wishlist</a>
