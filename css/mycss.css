@@ -22,6 +22,15 @@ body {
     font-weight: 600;
 }
 
+.active-thumb {
+    opacity: 0.5;
+}
+
+.prod-thumb {
+    height: 80px;
+    width: 80px;
+}
+
 /* Carousel */
 .carousel {
     height: 400px;
@@ -42,6 +51,7 @@ body {
 .designer h3,
 .similar h3,
 .cart h3,
+.category h3,
 .checkoutModal h3 {
     font-family: "lora";
     color: #1B2698;
@@ -52,6 +62,7 @@ body {
 .designer p,
 .similar p,
 .cart p,
+.category p,
 .checkoutModal p,
 footer p,
 footer a {
